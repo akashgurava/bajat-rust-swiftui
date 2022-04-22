@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38F7E4AA28135F1900821F92 /* BajatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F7E4A928135F1900821F92 /* BajatApp.swift */; };
+		38F7E4AC28135F1900821F92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F7E4AB28135F1900821F92 /* ContentView.swift */; };
+		38F7E4AE28135F1900821F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F7E4AD28135F1900821F92 /* Assets.xcassets */; };
+		38F7E4B128135F1900821F92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F7E4B028135F1900821F92 /* Preview Assets.xcassets */; };
+		38F7E4BB2813642100821F92 /* libbajat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F7E4BA281363CD00821F92 /* libbajat.a */; };
+		38F7E4C52813668C00821F92 /* SwiftBridgeCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F7E4BF281365AE00821F92 /* SwiftBridgeCore.swift */; };
+		38F7E4C6281366D200821F92 /* bajat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F7E4C2281365AE00821F92 /* bajat.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38F7E4A628135F1900821F92 /* Bajat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bajat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F7E4A928135F1900821F92 /* BajatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BajatApp.swift; sourceTree = "<group>"; };
+		38F7E4AB28135F1900821F92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		38F7E4AD28135F1900821F92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38F7E4B028135F1900821F92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38F7E4B72813604200821F92 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		38F7E4BA281363CD00821F92 /* libbajat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbajat.a; path = ../target/universal/debug/libbajat.a; sourceTree = "<group>"; };
+		38F7E4BD281365AE00821F92 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		38F7E4BE281365AE00821F92 /* SwiftBridgeCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftBridgeCore.h; sourceTree = "<group>"; };
+		38F7E4BF281365AE00821F92 /* SwiftBridgeCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBridgeCore.swift; sourceTree = "<group>"; };
+		38F7E4C1281365AE00821F92 /* bajat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bajat.h; sourceTree = "<group>"; };
+		38F7E4C2281365AE00821F92 /* bajat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bajat.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38F7E4A328135F1900821F92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F7E4BB2813642100821F92 /* libbajat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38F7E49D28135F1900821F92 = {
+			isa = PBXGroup;
+			children = (
+				38F7E4BC281365AE00821F92 /* Generated */,
+				38F7E4B72813604200821F92 /* BridgingHeader.h */,
+				38F7E4A828135F1900821F92 /* Bajat */,
+				38F7E4A728135F1900821F92 /* Products */,
+				38F7E4B9281363CD00821F92 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38F7E4A728135F1900821F92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38F7E4A628135F1900821F92 /* Bajat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38F7E4A828135F1900821F92 /* Bajat */ = {
+			isa = PBXGroup;
+			children = (
+				38F7E4A928135F1900821F92 /* BajatApp.swift */,
+				38F7E4AB28135F1900821F92 /* ContentView.swift */,
+				38F7E4AD28135F1900821F92 /* Assets.xcassets */,
+				38F7E4AF28135F1900821F92 /* Preview Content */,
+			);
+			path = Bajat;
+			sourceTree = "<group>";
+		};
+		38F7E4AF28135F1900821F92 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				38F7E4B028135F1900821F92 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		38F7E4B9281363CD00821F92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38F7E4BA281363CD00821F92 /* libbajat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38F7E4BC281365AE00821F92 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				38F7E4BD281365AE00821F92 /* .gitignore */,
+				38F7E4BE281365AE00821F92 /* SwiftBridgeCore.h */,
+				38F7E4BF281365AE00821F92 /* SwiftBridgeCore.swift */,
+				38F7E4C0281365AE00821F92 /* bajat */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		38F7E4C0281365AE00821F92 /* bajat */ = {
+			isa = PBXGroup;
+			children = (
+				38F7E4C1281365AE00821F92 /* bajat.h */,
+				38F7E4C2281365AE00821F92 /* bajat.swift */,
+			);
+			path = bajat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38F7E4A528135F1900821F92 /* Bajat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38F7E4B428135F1900821F92 /* Build configuration list for PBXNativeTarget "Bajat" */;
+			buildPhases = (
+				38F7E4A228135F1900821F92 /* Sources */,
+				38F7E4A328135F1900821F92 /* Frameworks */,
+				38F7E4A428135F1900821F92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bajat;
+			productName = Bajat;
+			productReference = 38F7E4A628135F1900821F92 /* Bajat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38F7E49E28135F1900821F92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					38F7E4A528135F1900821F92 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 38F7E4A128135F1900821F92 /* Build configuration list for PBXProject "Bajat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38F7E49D28135F1900821F92;
+			productRefGroup = 38F7E4A728135F1900821F92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38F7E4A528135F1900821F92 /* Bajat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38F7E4A428135F1900821F92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F7E4B128135F1900821F92 /* Preview Assets.xcassets in Resources */,
+				38F7E4AE28135F1900821F92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38F7E4A228135F1900821F92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F7E4C6281366D200821F92 /* bajat.swift in Sources */,
+				38F7E4C52813668C00821F92 /* SwiftBridgeCore.swift in Sources */,
+				38F7E4AC28135F1900821F92 /* ContentView.swift in Sources */,
+				38F7E4AA28135F1900821F92 /* BajatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		38F7E4B228135F1900821F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38F7E4B328135F1900821F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38F7E4B528135F1900821F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bajat/Preview Content\"";
+				DEVELOPMENT_TEAM = LXQH67HY4Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../target/universal/debug";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.bajat.Bajat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/akash/Documents/projects/swift-bridge/bajat/Bajat/BridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		38F7E4B628135F1900821F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bajat/Preview Content\"";
+				DEVELOPMENT_TEAM = LXQH67HY4Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../target/universal/release";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.bajat.Bajat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/akash/Documents/projects/swift-bridge/bajat/Bajat/BridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38F7E4A128135F1900821F92 /* Build configuration list for PBXProject "Bajat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F7E4B228135F1900821F92 /* Debug */,
+				38F7E4B328135F1900821F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38F7E4B428135F1900821F92 /* Build configuration list for PBXNativeTarget "Bajat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F7E4B528135F1900821F92 /* Debug */,
+				38F7E4B628135F1900821F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38F7E49E28135F1900821F92 /* Project object */;
+}
